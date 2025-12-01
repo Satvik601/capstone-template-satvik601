@@ -96,7 +96,7 @@ I plan to execute these steps to complete my project.
 - Improve the quality of responses by refining system & human prompts.
 - Add basic structure to the output (diagnosis + recommendations). 
 
-[TODO] Step 4: Extend the graph to all three coaches  
+[DONE] Step 4: Extend the graph to all three coaches  
 → Uses: Prompting, Structured Output, LangGraph (parallel multi-node flow)  
 - Add persona prompts for Dan Martell, Sam Ovens, Alex Hormozi.  
 - Implement individual nodes for each coach.  
