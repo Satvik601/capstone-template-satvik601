@@ -103,7 +103,7 @@ I plan to execute these steps to complete my project.
 - Modify the graph to run all three analyses and store results in state.  
 - Update final_report node to merge their perspectives into one structured report.
 
-[TODO] Step 5: Collect expert content for each coach  
+[DONE] Step 5: Collect expert content for each coach  
 → Uses: Semantic Search (preparation step for RAG)  
 - Identify data sources (YouTube transcripts, blogs, articles, case studies).  
 - Download text content into the data/ directory.  

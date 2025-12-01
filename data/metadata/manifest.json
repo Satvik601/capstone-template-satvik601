@@ -1,0 +1,23 @@
+[
+  {
+    "id": "alex_hormozi__hormozi_summary",
+    "coach": "alex_hormozi",
+    "type": "raw_text",
+    "path": "data\\raw\\alex_hormozi\\hormozi_summary.txt",
+    "collected_at": "2025-12-01T18:29:25.275149Z"
+  },
+  {
+    "id": "dan_martell__dan_martell_summary",
+    "coach": "dan_martell",
+    "type": "raw_text",
+    "path": "data\\raw\\dan_martell\\dan_martell_summary.txt",
+    "collected_at": "2025-12-01T18:29:25.276069Z"
+  },
+  {
+    "id": "sam_ovens__SamOvens_yt",
+    "coach": "sam_ovens",
+    "type": "raw_text",
+    "path": "data\\raw\\sam_ovens\\SamOvens_yt.txt",
+    "collected_at": "2025-12-01T18:29:25.276549Z"
+  }
+]
