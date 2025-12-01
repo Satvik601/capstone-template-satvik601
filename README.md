@@ -109,7 +109,7 @@ I plan to execute these steps to complete my project.
 - Download text content into the data/ directory.  
 - Organize content by coach for efficient retrieval later.
 
-[TODO] Step 6: Preprocess and chunk the expert content  
+[DONE] Step 6: Preprocess and chunk the expert content  
 → Uses: Semantic Search (chunking enables vector indexing)  
 - Clean the raw transcripts (remove timestamps, noise, filler text).  
 - Chunk into meaning-preserving segments.  
