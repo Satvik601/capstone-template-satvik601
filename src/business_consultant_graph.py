@@ -226,6 +226,38 @@ def validate_and_fix_json(parsed: Dict[str, Any], llm_instance: ChatOpenAI, msgs
     except Exception:
         return parsed
 
+# ---------- KPI TARGET HELPER (optional but recommended) ----------
+def suggest_kpi_targets(kpis: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Suggest target KPI values based on simple heuristics.
+    If the user provides baseline KPIs, we compute example targets.
+    If no baseline exists, we return empty.
+    """
+    targets = {}
+
+    # Example: revenue → increase 30–50%
+    revenue = kpis.get("revenue")
+    if isinstance(revenue, (int, float)):
+        targets["revenue_target_6_months"] = round(revenue * 1.3, 2)
+        targets["revenue_target_12_months"] = round(revenue * 1.5, 2)
+
+    # Example: conversion_rate → improve by 20–40%
+    conv = kpis.get("conversion_rate")
+    if isinstance(conv, (int, float)):
+        targets["conversion_rate_target"] = round(conv * 1.25, 2)
+
+    # Example: CAC should decrease
+    cac = kpis.get("customer_acquisition_cost")
+    if isinstance(cac, (int, float)):
+        targets["cac_target"] = round(cac * 0.85, 2)
+
+    # Production cost per unit (manufacturing KPI)
+    ppu = kpis.get("production_cost_per_unit")
+    if isinstance(ppu, (int, float)):
+        targets["production_cost_per_unit_target"] = round(ppu * 0.9, 2)
+
+    return targets
+
 def build_coach_prompt_with_rag(system_text: str, business_desc: str, goal: str, kpis: dict, coach: str, k: int = RAG_TOP_K) -> Tuple[List[Any], List[Dict[str, Any]]]:
     """Build the System+Human messages for the coach including retrieved evidence. Returns (msgs, provenance)."""
     query = f"{business_desc}\nGoal: {goal}"
@@ -254,6 +286,9 @@ def build_coach_prompt_with_rag(system_text: str, business_desc: str, goal: str,
     kpi_block = "\n".join([f"- {kk}: {vv}" for kk, vv in (kpis or {}).items()]) or "none"
 
     human_text = f"""
+
+    
+
 Business Description:
 {business_desc}
 
@@ -477,6 +512,23 @@ def run_all_coaches_and_save_verbose():
         except Exception:
             print(final_state.get("final_report"))
         
+        # -------- SAVE FINAL REPORT AS JSON (REQUIRED FOR STEP 9) --------
+        Path("data/metadata").mkdir(parents=True, exist_ok=True)
+
+        thread_id = thread["configurable"]["thread_id"]
+        fr_path = Path(f"data/metadata/final_report_{thread_id}.json")
+
+        final_report_obj = final_state.get("final_report", {})
+
+        fr_path.write_text(
+            json.dumps(final_report_obj, indent=2, ensure_ascii=False),
+            encoding="utf-8"
+        )
+
+        print(f"\nSaved final report to: {fr_path}\n")
+        # ---------------------------------------------------------------
+
+        
         # Persist run metadata for auditing
         try:
             run_meta = {
@@ -501,11 +553,41 @@ def run_all_coaches_and_save_verbose():
                 print("\nMemorySaver available; no list/get methods found.")
         except Exception as e:
             print("Memory inspection failed:", repr(e))
+        
+        # -------- AUTO-GENERATE DOCX REPORT --------
+        try:
+            print("\n" + "="*60)
+            print("Generating DOCX report...")
+            print("="*60)
+            
+            # Import the report generation function
+            sys.path.insert(0, str(Path(__file__).parent.parent))
+            from scripts.generate_report_docx import write_consulting_report
+            
+            # Generate filename based on business description
+            business_desc = final_state.get("final_report", {}).get("business_snapshot", {}).get("description", "business")
+            # Clean filename: remove special chars, limit length
+            safe_name = "".join(c if c.isalnum() or c in (' ', '_') else '_' for c in business_desc)
+            safe_name = safe_name.replace(' ', '_').lower()[:30]
+            
+            docx_filename = f"docs/{safe_name}_report_{thread_id}.docx"
+            
+            # Generate the DOCX
+            write_consulting_report(final_state.get("final_report", {}), docx_filename)
+            
+            print(f"\n✅ DOCX report automatically generated: {docx_filename}")
+            print("="*60 + "\n")
+            
+        except Exception as docx_err:
+            print(f"\n⚠️  Warning: Could not auto-generate DOCX report: {docx_err}")
+            print("You can manually generate it using:")
+            print(f"  python scripts/generate_report_docx.py {fr_path} docs/report.docx\n")
 
     except Exception as exc:
         print("\n!!! Exception during run !!!")
         traceback.print_exc()
         print("\nPlease paste the above traceback into the chat.")
+
 
 if __name__ == "__main__":
     run_all_coaches_and_save_verbose()

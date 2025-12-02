@@ -1,0 +1,3 @@
+- sales_growth_rate: (This month revenue - prev month revenue) / prev month revenue. Unit: fraction/year. Target: 25% increase in 6 months.
+- conversion_rate: conversions / visits. Unit: percent. Target: increase from X% -> X+Y% (state Y explicitly).
+- CAC: total marketing cost / new customers. Unit: currency. Track monthly.

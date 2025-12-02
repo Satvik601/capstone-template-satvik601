@@ -1,0 +1,252 @@
+{
+  "business_snapshot": {
+    "description": "energy drink making business",
+    "goal": "increase sales",
+    "kpis": {
+      "revenue per month": "10000 inr",
+      "profit per month": "700 inr",
+      "customer retention rate": "90%"
+    }
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of delegation and automation in low-value tasks",
+            "diagnosis": "Founder spending too much time on tasks that can be delegated or automated, hindering focus on high-value activities.",
+            "tactical_fix": [
+              "Identify low-value tasks for delegation or automation",
+              "Implement systems and tools to streamline processes"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Delegate low-value tasks to free up time for high-impact activities.",
+        "kpis_to_track": [
+          "revenue per month",
+          "profit per month"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "customer acquisition cost (CAC)",
+            "why": "To ensure efficient spending on acquiring new customers"
+          },
+          {
+            "kpi": "customer lifetime value (CLV)",
+            "why": "To understand the long-term value generated from each customer"
+          },
+          {
+            "kpi": "customer satisfaction score (CSAT)",
+            "why": "To measure and improve customer happiness and loyalty"
+          }
+        ],
+        "summary": "To increase sales in the energy drink making business, focus on delegating and automating low-value tasks to free up time for high-impact activities. Track revenue and profit per month as key performance indicators, while also monitoring customer acquisition cost, customer lifetime value, and customer satisfaction score for a comprehensive view of business performance."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Unknown target market",
+            "diagnosis": "Lack of clear understanding of the target market for the energy drink",
+            "tactical_fix": [
+              "Conduct market research to identify target demographics",
+              "Create targeted marketing campaigns"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Conduct market research to identify target demographics and preferences",
+        "kpis_to_track": [
+          "revenue per month",
+          "profit per month",
+          "customer retention rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "customer acquisition cost",
+            "why": "To measure the effectiveness of sales and marketing efforts"
+          },
+          {
+            "kpi": "customer lifetime value",
+            "why": "To understand the long-term value of each customer"
+          },
+          {
+            "kpi": "market share",
+            "why": "To track the business's position in the market"
+          }
+        ],
+        "summary": "To increase sales for the energy drink making business, it is crucial to first identify and target the right market segment through market research and tailored marketing strategies."
+      },
+      "provenance": []
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "",
+            "diagnosis": "",
+            "tactical_fix": [
+              "",
+              ""
+            ],
+            "priority": "low|medium|high"
+          }
+        ],
+        "top_recommendation": "",
+        "kpis_to_track": [
+          "revenue per month",
+          "profit per month",
+          "customer retention rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "sales growth rate",
+            "why": "To measure the rate of increase in sales over time"
+          },
+          {
+            "kpi": "customer acquisition cost",
+            "why": "To track the cost of acquiring new customers"
+          },
+          {
+            "kpi": "customer lifetime value",
+            "why": "To understand the total value a customer brings to the business over their lifetime"
+          }
+        ],
+        "summary": ""
+      },
+      "provenance": []
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Lack of delegation and automation in low-value tasks",
+      "diagnosis": "Founder spending too much time on tasks that can be delegated or automated, hindering focus on high-value activities.",
+      "tactical_fix": [
+        "Identify low-value tasks for delegation or automation",
+        "Implement systems and tools to streamline processes"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Unknown target market",
+      "diagnosis": "Lack of clear understanding of the target market for the energy drink",
+      "tactical_fix": [
+        "Conduct market research to identify target demographics",
+        "Create targeted marketing campaigns"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "",
+      "diagnosis": "",
+      "tactical_fix": [
+        "",
+        ""
+      ],
+      "priority": "low|medium|high",
+      "source": "alex_hormozi"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Identify low-value tasks for delegation or automation",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Implement systems and tools to streamline processes",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Conduct market research to identify target demographics",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Create targeted marketing campaigns",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "",
+      "from": "alex_hormozi"
+    }
+  ],
+  "kpis_to_track": [
+    "revenue per month",
+    "customer retention rate",
+    "profit per month"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "customer acquisition cost (CAC)",
+      "why": "To ensure efficient spending on acquiring new customers"
+    },
+    {
+      "kpi": "customer lifetime value (CLV)",
+      "why": "To understand the long-term value generated from each customer"
+    },
+    {
+      "kpi": "customer satisfaction score (CSAT)",
+      "why": "To measure and improve customer happiness and loyalty"
+    },
+    {
+      "kpi": "customer acquisition cost",
+      "why": "To measure the effectiveness of sales and marketing efforts"
+    },
+    {
+      "kpi": "customer lifetime value",
+      "why": "To understand the long-term value of each customer"
+    },
+    {
+      "kpi": "market share",
+      "why": "To track the business's position in the market"
+    },
+    {
+      "kpi": "sales growth rate",
+      "why": "To measure the rate of increase in sales over time"
+    },
+    {
+      "kpi": "customer acquisition cost",
+      "why": "To track the cost of acquiring new customers"
+    },
+    {
+      "kpi": "customer lifetime value",
+      "why": "To understand the total value a customer brings to the business over their lifetime"
+    }
+  ],
+  "final_summary": "To increase sales in the energy drink making business, focus on delegating and automating low-value tasks to free up time for high-impact activities. Track revenue and profit per month as key performance indicators, while also monitoring customer acquisition cost, customer lifetime value, and customer satisfaction score for a comprehensive view of business performance. || To increase sales for the energy drink making business, it is crucial to first identify and target the right market segment through market research and tailored marketing strategies.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [],
+    "alex_hormozi": []
+  }
+}

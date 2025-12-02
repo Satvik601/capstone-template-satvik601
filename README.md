@@ -129,7 +129,7 @@ I plan to execute these steps to complete my project.
 - Ensure the state stores enriched, evidence-based analyses.  
 - If using MCP or tool-calling module, integrate retrieval as a tool call.
 
-[TODO] Step 9: Polish the final report structure and formatting  
+[DONE] Step 9: Polish the final report structure and formatting  
 → Uses: Structured Output  
 - Define a consistent multi-section consulting report (Snapshot, Bottlenecks, Root Causes, Action Plan, KPIs).  
 - Enforce structured output using templates or schema-guided prompting.  

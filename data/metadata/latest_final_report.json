@@ -1,0 +1,252 @@
+{
+  "business_snapshot": {
+    "description": "milk packet manufactoring and selling business",
+    "goal": "get more clients",
+    "kpis": {
+      "no. of active clients": "6",
+      "no. of leads per month": "15",
+      "customer retention %": "95%"
+    }
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of lead generation strategy",
+            "diagnosis": "Insufficient focus on generating leads through content, partnerships, and paid ads.",
+            "tactical_fix": [
+              "Implement content marketing strategy to create inbound authority",
+              "Explore partnership opportunities with relevant businesses"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Implement a comprehensive lead generation strategy focusing on content creation, partnerships, and paid ads to increase client acquisition.",
+        "kpis_to_track": [
+          "no. of leads per month",
+          "customer retention %"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "no. of leads from content marketing efforts",
+            "why": "To measure the effectiveness of content marketing in generating leads"
+          },
+          {
+            "kpi": "no. of partnership-generated leads",
+            "why": "To evaluate the impact of partnerships on lead generation"
+          },
+          {
+            "kpi": "conversion rate of paid ads",
+            "why": "To assess the efficiency of paid advertising in converting leads"
+          }
+        ],
+        "summary": "The business should focus on enhancing lead generation strategies to attract more clients, particularly through content marketing, partnerships, and paid ads. Implementing a robust lead generation plan will help in achieving the goal of acquiring more clients."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Limited lead generation channels",
+            "diagnosis": "Relying on a small number of lead sources may limit client acquisition potential.",
+            "tactical_fix": [
+              "Explore new lead generation channels such as social media advertising",
+              "Implement SEO strategies to increase online visibility"
+            ],
+            "priority": "medium"
+          }
+        ],
+        "top_recommendation": "Diversify lead generation channels to reach a wider audience and increase client acquisition.",
+        "kpis_to_track": [
+          "no. of active clients",
+          "no. of leads per month"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "customer acquisition cost (CAC)",
+            "why": "To understand the cost of acquiring each new client"
+          },
+          {
+            "kpi": "conversion rate from lead to client",
+            "why": "To optimize lead conversion strategies"
+          },
+          {
+            "kpi": "average customer lifetime value (CLV)",
+            "why": "To assess the long-term value of acquired clients"
+          }
+        ],
+        "summary": "To achieve the goal of acquiring more clients for the milk packet manufacturing and selling business, it is recommended to diversify lead generation channels and track key performance indicators such as the number of active clients and leads per month. Additionally, monitoring customer acquisition cost, conversion rate from lead to client, and average customer lifetime value can provide valuable insights for optimizing client acquisition strategies."
+      },
+      "provenance": []
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Limited Brand Awareness",
+            "diagnosis": "Low visibility in the market leading to fewer leads and clients",
+            "tactical_fix": [
+              "Invest in digital marketing campaigns",
+              "Collaborate with local stores for product placement"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Invest in digital marketing campaigns to increase brand awareness and reach more potential clients.",
+        "kpis_to_track": [
+          "no_of_leads_per_month",
+          "customer_retention_percentage"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "brand awareness score",
+            "why": "To measure the effectiveness of marketing efforts in increasing brand visibility"
+          },
+          {
+            "kpi": "customer acquisition cost",
+            "why": "To optimize marketing spend and improve client acquisition efficiency"
+          },
+          {
+            "kpi": "customer lifetime value",
+            "why": "To understand the long-term value generated from each client"
+          }
+        ],
+        "summary": "To achieve the goal of getting more clients, focus on increasing brand awareness through digital marketing and optimizing customer acquisition cost and lifetime value."
+      },
+      "provenance": []
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Lack of lead generation strategy",
+      "diagnosis": "Insufficient focus on generating leads through content, partnerships, and paid ads.",
+      "tactical_fix": [
+        "Implement content marketing strategy to create inbound authority",
+        "Explore partnership opportunities with relevant businesses"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Limited Brand Awareness",
+      "diagnosis": "Low visibility in the market leading to fewer leads and clients",
+      "tactical_fix": [
+        "Invest in digital marketing campaigns",
+        "Collaborate with local stores for product placement"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    },
+    {
+      "name": "Limited lead generation channels",
+      "diagnosis": "Relying on a small number of lead sources may limit client acquisition potential.",
+      "tactical_fix": [
+        "Explore new lead generation channels such as social media advertising",
+        "Implement SEO strategies to increase online visibility"
+      ],
+      "priority": "medium",
+      "source": "sam_ovens"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Implement content marketing strategy to create inbound authority",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Explore partnership opportunities with relevant businesses",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Invest in digital marketing campaigns",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Collaborate with local stores for product placement",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Explore new lead generation channels such as social media advertising",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Implement SEO strategies to increase online visibility",
+      "from": "sam_ovens"
+    }
+  ],
+  "kpis_to_track": [
+    "customer retention %",
+    "customer_retention_percentage",
+    "no. of active clients",
+    "no. of leads per month",
+    "no_of_leads_per_month"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "no. of leads from content marketing efforts",
+      "why": "To measure the effectiveness of content marketing in generating leads"
+    },
+    {
+      "kpi": "no. of partnership-generated leads",
+      "why": "To evaluate the impact of partnerships on lead generation"
+    },
+    {
+      "kpi": "conversion rate of paid ads",
+      "why": "To assess the efficiency of paid advertising in converting leads"
+    },
+    {
+      "kpi": "customer acquisition cost (CAC)",
+      "why": "To understand the cost of acquiring each new client"
+    },
+    {
+      "kpi": "conversion rate from lead to client",
+      "why": "To optimize lead conversion strategies"
+    },
+    {
+      "kpi": "average customer lifetime value (CLV)",
+      "why": "To assess the long-term value of acquired clients"
+    },
+    {
+      "kpi": "brand awareness score",
+      "why": "To measure the effectiveness of marketing efforts in increasing brand visibility"
+    },
+    {
+      "kpi": "customer acquisition cost",
+      "why": "To optimize marketing spend and improve client acquisition efficiency"
+    },
+    {
+      "kpi": "customer lifetime value",
+      "why": "To understand the long-term value generated from each client"
+    }
+  ],
+  "final_summary": "The business should focus on enhancing lead generation strategies to attract more clients, particularly through content marketing, partnerships, and paid ads. Implementing a robust lead generation plan will help in achieving the goal of acquiring more clients. || To achieve the goal of acquiring more clients for the milk packet manufacturing and selling business, it is recommended to diversify lead generation channels and track key performance indicators such as the number of active clients and leads per month. Additionally, monitoring customer acquisition cost, conversion rate from lead to client, and average customer lifetime value can provide valuable insights for optimizing client acquisition strategies. || To achieve the goal of getting more clients, focus on increasing brand awareness through digital marketing and optimizing customer acquisition cost and lifetime value.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [],
+    "alex_hormozi": []
+  }
+}
