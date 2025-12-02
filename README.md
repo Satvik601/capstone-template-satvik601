@@ -148,7 +148,7 @@ I plan to execute these steps to complete my project.
 
 ## Conclusion:
 
-I had planned to achieve {this this}. I think I have/have-not achieved the conclusion satisfactorily. The reason for your satisfaction/unsatisfaction.
+I had planned to build and improve an AI-based business consultant agent. I feel that I have partially achieved this goal. I made significant progress in developing core features and workflow logic, but the system is still not fully refined. I am moderately satisfied because the foundation is strong, but further optimization and improvements are needed.
 
 ----------
 
