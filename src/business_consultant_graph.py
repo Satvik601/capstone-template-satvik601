@@ -20,6 +20,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 load_dotenv()
 os.environ.setdefault("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY", ""))
 
+
 # ========== RAG SETUP ==========
 # Try imports in a robust order
 EmbeddingClass = None
@@ -50,6 +51,16 @@ except Exception:
 CHROMA_PERSIST_DIR = "chroma_persist"
 RAG_TOP_K = 3
 EMB_OPENAI_KEY = os.getenv("OPENAI_API_KEY")
+
+# ---------- MCP-STYLE RETRIEVAL TOOL ----------
+def retrieval_tool(query: str, coach: str, k: int = RAG_TOP_K):
+    """
+    MCP-style retrieval tool stub.
+    Future versions could expose this as a real tool.
+    For now, it simply wraps your existing RAG retrieval.
+    """
+    return get_top_k_evidence_with_meta(coach, query, k)
+
 
 def _build_chroma_vectorstore(coach_collection_name: str):
     """Construct a Chroma vectorstore instance."""
@@ -364,6 +375,12 @@ def merge_node(state: BizState) -> Dict[str, Any]:
     # final summary: concat coach summaries
     summaries = [a["analysis"].get("summary", "") for a in analyses_list if isinstance(a["analysis"], dict)]
     merged["final_summary"] = " || ".join([s for s in summaries if s])
+
+    # add RAG provenance for transparency
+    merged["rag_provenance"] = {
+        a["coach"]: a.get("provenance", [])
+        for a in analyses_list
+    }
 
     return {"final_report": merged}
 

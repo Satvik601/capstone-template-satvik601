@@ -122,7 +122,7 @@ I plan to execute these steps to complete my project.
 - Implement a retrieval module that returns top-k relevant chunks per coach.  
 - Test retrieval independently with sample queries.
 
-[TODO] Step 8: Integrate RAG into the LangGraph  
+[DONE] Step 8: Integrate RAG into the LangGraph  
 → Uses: RAG, Prompting, LangGraph (State + Node updates), Tool Calling (if retrieval tool exposed)  
 - Update each coach node to include retrieved expert knowledge in prompts.  
 - Combine user context + retrieved text → coach-specific analysis.  
