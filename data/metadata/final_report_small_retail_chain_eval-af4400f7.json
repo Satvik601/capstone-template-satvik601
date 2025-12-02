@@ -1,0 +1,328 @@
+{
+  "business_snapshot": {
+    "description": "3-store retail chain with inconsistent inventory and declining footfall.",
+    "goal": "Increase same-store sales by 20% in 3 months",
+    "kpis": {
+      "conversion_rate": null
+    }
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Inconsistent Inventory Management",
+            "diagnosis": "Lack of proper inventory tracking leading to stockouts and overstock situations",
+            "tactical_fix": [
+              "Implement inventory management system",
+              "Conduct regular inventory audits"
+            ],
+            "priority": "high"
+          },
+          {
+            "name": "Footfall Decline",
+            "diagnosis": "Lack of effective marketing and customer engagement strategies",
+            "tactical_fix": [
+              "Launch targeted marketing campaigns",
+              "Improve store ambiance and customer experience"
+            ],
+            "priority": "medium"
+          }
+        ],
+        "top_recommendation": "Implement an inventory management system to optimize stock levels and reduce stockouts",
+        "kpis_to_track": [
+          "conversion_rate",
+          "footfall"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "inventory turnover ratio",
+            "why": "To measure how efficiently inventory is being managed"
+          },
+          {
+            "kpi": "customer retention rate",
+            "why": "To track the percentage of customers returning to the store"
+          },
+          {
+            "kpi": "average transaction value",
+            "why": "To monitor the average amount customers spend per transaction"
+          }
+        ],
+        "summary": "To increase same-store sales by 20% in 3 months, focus on improving inventory management and implementing targeted marketing strategies to address footfall decline."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Low Engagement and Conversion Rate",
+            "diagnosis": "Insufficient strategy sessions and ineffective outreach methods leading to low engagement and conversion rates.",
+            "tactical_fix": [
+              "Increase strategy sessions to at least 40+ to gather meaningful insights",
+              "Revise outreach methods to improve conversation generation"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Increase strategy sessions to at least 40+ and focus on improving outreach methods to boost engagement and conversion rates.",
+        "kpis_to_track": [
+          "conversion_rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "strategy_sessions_per_day",
+            "why": "To ensure the target of 40+ strategy sessions is being met"
+          },
+          {
+            "kpi": "conversation_generation_rate",
+            "why": "To track the effectiveness of revised outreach methods in generating conversations"
+          },
+          {
+            "kpi": "average_transaction_value",
+            "why": "To monitor the value of each sale and assess the impact of increased engagement"
+          }
+        ],
+        "summary": "The retail chain faces low engagement and conversion rates due to insufficient strategy sessions and ineffective outreach methods. By increasing strategy sessions to 40+ and improving outreach, the chain can boost engagement and achieve the goal of increasing same-store sales by 20% in 3 months."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 3,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 2
+        }
+      ]
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Inventory Management",
+            "diagnosis": "Inconsistent inventory leading to stockouts or excess inventory",
+            "tactical_fix": [
+              "Implement inventory management system",
+              "Conduct regular inventory audits"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Improve inventory management to ensure consistent stock levels",
+        "kpis_to_track": [
+          "conversion_rate",
+          "average footfall per store"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "inventory turnover ratio",
+            "why": "To measure how efficiently inventory is being managed"
+          },
+          {
+            "kpi": "average transaction value",
+            "why": "To track the average amount customers are spending per visit"
+          },
+          {
+            "kpi": "customer retention rate",
+            "why": "To monitor the percentage of customers returning to the stores"
+          }
+        ],
+        "summary": "Focus on optimizing inventory management to address inconsistent stock levels and improve overall store performance."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 2,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 0
+        }
+      ]
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Inconsistent Inventory Management",
+      "diagnosis": "Lack of proper inventory tracking leading to stockouts and overstock situations",
+      "tactical_fix": [
+        "Implement inventory management system",
+        "Conduct regular inventory audits"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Low Engagement and Conversion Rate",
+      "diagnosis": "Insufficient strategy sessions and ineffective outreach methods leading to low engagement and conversion rates.",
+      "tactical_fix": [
+        "Increase strategy sessions to at least 40+ to gather meaningful insights",
+        "Revise outreach methods to improve conversation generation"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "Inventory Management",
+      "diagnosis": "Inconsistent inventory leading to stockouts or excess inventory",
+      "tactical_fix": [
+        "Implement inventory management system",
+        "Conduct regular inventory audits"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    },
+    {
+      "name": "Footfall Decline",
+      "diagnosis": "Lack of effective marketing and customer engagement strategies",
+      "tactical_fix": [
+        "Launch targeted marketing campaigns",
+        "Improve store ambiance and customer experience"
+      ],
+      "priority": "medium",
+      "source": "dan_martell"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Implement inventory management system",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Conduct regular inventory audits",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Increase strategy sessions to at least 40+ to gather meaningful insights",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Revise outreach methods to improve conversation generation",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Implement inventory management system",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Conduct regular inventory audits",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Launch targeted marketing campaigns",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Improve store ambiance and customer experience",
+      "from": "dan_martell"
+    }
+  ],
+  "kpis_to_track": [
+    "footfall",
+    "average footfall per store",
+    "conversion_rate"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "inventory turnover ratio",
+      "why": "To measure how efficiently inventory is being managed"
+    },
+    {
+      "kpi": "customer retention rate",
+      "why": "To track the percentage of customers returning to the store"
+    },
+    {
+      "kpi": "average transaction value",
+      "why": "To monitor the average amount customers spend per transaction"
+    },
+    {
+      "kpi": "strategy_sessions_per_day",
+      "why": "To ensure the target of 40+ strategy sessions is being met"
+    },
+    {
+      "kpi": "conversation_generation_rate",
+      "why": "To track the effectiveness of revised outreach methods in generating conversations"
+    },
+    {
+      "kpi": "average_transaction_value",
+      "why": "To monitor the value of each sale and assess the impact of increased engagement"
+    },
+    {
+      "kpi": "inventory turnover ratio",
+      "why": "To measure how efficiently inventory is being managed"
+    },
+    {
+      "kpi": "average transaction value",
+      "why": "To track the average amount customers are spending per visit"
+    },
+    {
+      "kpi": "customer retention rate",
+      "why": "To monitor the percentage of customers returning to the stores"
+    }
+  ],
+  "final_summary": "To increase same-store sales by 20% in 3 months, focus on improving inventory management and implementing targeted marketing strategies to address footfall decline. || The retail chain faces low engagement and conversion rates due to insufficient strategy sessions and ineffective outreach methods. By increasing strategy sessions to 40+ and improving outreach, the chain can boost engagement and achieve the goal of increasing same-store sales by 20% in 3 months. || Focus on optimizing inventory management to address inconsistent stock levels and improve overall store performance.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [
+      {
+        "evidence_rank": 1,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 3,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 2
+      }
+    ],
+    "alex_hormozi": [
+      {
+        "evidence_rank": 1,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 2,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 0
+      }
+    ]
+  }
+}

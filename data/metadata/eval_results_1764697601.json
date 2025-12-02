@@ -1,0 +1,64 @@
+{
+  "runs": [
+    {
+      "scenario": "diaper_manufacturing",
+      "thread_id": "eval-3789df38",
+      "start_ts": 1764697601.9175715,
+      "ok": true,
+      "errors": [],
+      "metrics": {
+        "num_consensus_bottlenecks": 3,
+        "num_action_plan_items": 6,
+        "num_kpis_to_track": 2,
+        "num_proposed_kpis": 9,
+        "provenance_counts": {
+          "dan_martell": 2,
+          "sam_ovens": 3,
+          "alex_hormozi": 0
+        }
+      },
+      "end_ts": 1764697609.8404117,
+      "final_report_path": "data\\metadata\\final_report_diaper_manufacturing_eval-3789df38.json"
+    },
+    {
+      "scenario": "local_coaching_saas",
+      "thread_id": "eval-f634c988",
+      "start_ts": 1764697609.842426,
+      "ok": true,
+      "errors": [],
+      "metrics": {
+        "num_consensus_bottlenecks": 3,
+        "num_action_plan_items": 6,
+        "num_kpis_to_track": 6,
+        "num_proposed_kpis": 9,
+        "provenance_counts": {
+          "dan_martell": 2,
+          "sam_ovens": 3,
+          "alex_hormozi": 2
+        }
+      },
+      "end_ts": 1764697616.2603822,
+      "final_report_path": "data\\metadata\\final_report_local_coaching_saas_eval-f634c988.json"
+    },
+    {
+      "scenario": "small_retail_chain",
+      "thread_id": "eval-af4400f7",
+      "start_ts": 1764697616.2627842,
+      "ok": true,
+      "errors": [],
+      "metrics": {
+        "num_consensus_bottlenecks": 4,
+        "num_action_plan_items": 8,
+        "num_kpis_to_track": 3,
+        "num_proposed_kpis": 9,
+        "provenance_counts": {
+          "dan_martell": 2,
+          "sam_ovens": 3,
+          "alex_hormozi": 2
+        }
+      },
+      "end_ts": 1764697622.5659344,
+      "final_report_path": "data\\metadata\\final_report_small_retail_chain_eval-af4400f7.json"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "business_snapshot": {
+    "description": "Bootstrapped coaching SaaS selling monthly subscriptions to coaches.",
+    "goal": "Double monthly recurring revenue in 6 months",
+    "kpis": {}
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of scalable lead generation",
+            "diagnosis": "Relying on inconsistent lead sources and not maximizing lead generation potential",
+            "tactical_fix": [
+              "Invest in content marketing strategy for inbound leads",
+              "Establish partnerships and community engagement for long-term lead generation"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on building a scalable lead generation engine to drive consistent growth",
+        "kpis_to_track": [
+          "MRR growth rate",
+          "Lead conversion rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "Monthly recurring revenue (MRR)",
+            "why": "Directly tied to revenue growth and business health"
+          },
+          {
+            "kpi": "Lead conversion rate",
+            "why": "Indicates effectiveness of sales process and lead quality"
+          },
+          {
+            "kpi": "Content engagement metrics",
+            "why": "To measure the impact of content marketing efforts"
+          }
+        ],
+        "summary": "To achieve the goal of doubling monthly recurring revenue in 6 months, the focus should be on addressing the bottleneck of lack of scalable lead generation. By investing in content marketing and establishing partnerships, the business can drive consistent growth. Tracking MRR growth rate and lead conversion rate will be crucial KPIs to monitor progress."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Low Conversion Rate of Strategy Sessions",
+            "diagnosis": "Messaging or offer may not resonate with target audience",
+            "tactical_fix": [
+              "Reassess offer and messaging alignment with student needs",
+              "Increase audience connection through improved targeting"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Reassess offer and messaging alignment with student needs",
+        "kpis_to_track": [
+          "Monthly Recurring Revenue",
+          "Number of Strategy Sessions Booked"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "Conversion Rate of Strategy Sessions",
+            "why": "To measure effectiveness of offer and messaging"
+          },
+          {
+            "kpi": "Audience Engagement Rate",
+            "why": "To track improvement in connecting with target audience"
+          },
+          {
+            "kpi": "Customer Churn Rate",
+            "why": "To monitor customer retention and satisfaction"
+          }
+        ],
+        "summary": "To double monthly recurring revenue in 6 months, focus on improving conversion rate of strategy sessions by reassessing offer and messaging alignment with student needs, and increasing audience connection through improved targeting. Track Monthly Recurring Revenue and Number of Strategy Sessions Booked as key performance indicators, along with Conversion Rate of Strategy Sessions, Audience Engagement Rate, and Customer Churn Rate."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 3,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 2
+        }
+      ]
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Sales",
+            "diagnosis": "Lack of structured sales system and sales team training",
+            "tactical_fix": [
+              "Implement structured sales script",
+              "Train sales team on asking more questions and quantifying pain"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Implement a structured sales script and train the sales team on asking more questions and quantifying pain",
+        "kpis_to_track": [
+          "leads",
+          "close rates"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "cost per lead",
+            "why": "To optimize lead acquisition cost"
+          },
+          {
+            "kpi": "churn rate",
+            "why": "To monitor customer retention and satisfaction"
+          },
+          {
+            "kpi": "lifetime value (LTV)",
+            "why": "To track and increase customer value"
+          }
+        ],
+        "summary": "To double monthly recurring revenue in 6 months, focus on improving the sales process by implementing a structured sales script and training the sales team. Track leads and close rates while monitoring cost per lead, churn rate, and lifetime value to optimize performance and increase revenue."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Lack of scalable lead generation",
+      "diagnosis": "Relying on inconsistent lead sources and not maximizing lead generation potential",
+      "tactical_fix": [
+        "Invest in content marketing strategy for inbound leads",
+        "Establish partnerships and community engagement for long-term lead generation"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Low Conversion Rate of Strategy Sessions",
+      "diagnosis": "Messaging or offer may not resonate with target audience",
+      "tactical_fix": [
+        "Reassess offer and messaging alignment with student needs",
+        "Increase audience connection through improved targeting"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "Sales",
+      "diagnosis": "Lack of structured sales system and sales team training",
+      "tactical_fix": [
+        "Implement structured sales script",
+        "Train sales team on asking more questions and quantifying pain"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Invest in content marketing strategy for inbound leads",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Establish partnerships and community engagement for long-term lead generation",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Reassess offer and messaging alignment with student needs",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Increase audience connection through improved targeting",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Implement structured sales script",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Train sales team on asking more questions and quantifying pain",
+      "from": "alex_hormozi"
+    }
+  ],
+  "kpis_to_track": [
+    "Lead conversion rate",
+    "leads",
+    "Monthly Recurring Revenue",
+    "close rates",
+    "MRR growth rate",
+    "Number of Strategy Sessions Booked"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "Monthly recurring revenue (MRR)",
+      "why": "Directly tied to revenue growth and business health"
+    },
+    {
+      "kpi": "Lead conversion rate",
+      "why": "Indicates effectiveness of sales process and lead quality"
+    },
+    {
+      "kpi": "Content engagement metrics",
+      "why": "To measure the impact of content marketing efforts"
+    },
+    {
+      "kpi": "Conversion Rate of Strategy Sessions",
+      "why": "To measure effectiveness of offer and messaging"
+    },
+    {
+      "kpi": "Audience Engagement Rate",
+      "why": "To track improvement in connecting with target audience"
+    },
+    {
+      "kpi": "Customer Churn Rate",
+      "why": "To monitor customer retention and satisfaction"
+    },
+    {
+      "kpi": "cost per lead",
+      "why": "To optimize lead acquisition cost"
+    },
+    {
+      "kpi": "churn rate",
+      "why": "To monitor customer retention and satisfaction"
+    },
+    {
+      "kpi": "lifetime value (LTV)",
+      "why": "To track and increase customer value"
+    }
+  ],
+  "final_summary": "To achieve the goal of doubling monthly recurring revenue in 6 months, the focus should be on addressing the bottleneck of lack of scalable lead generation. By investing in content marketing and establishing partnerships, the business can drive consistent growth. Tracking MRR growth rate and lead conversion rate will be crucial KPIs to monitor progress. || To double monthly recurring revenue in 6 months, focus on improving conversion rate of strategy sessions by reassessing offer and messaging alignment with student needs, and increasing audience connection through improved targeting. Track Monthly Recurring Revenue and Number of Strategy Sessions Booked as key performance indicators, along with Conversion Rate of Strategy Sessions, Audience Engagement Rate, and Customer Churn Rate. || To double monthly recurring revenue in 6 months, focus on improving the sales process by implementing a structured sales script and training the sales team. Track leads and close rates while monitoring cost per lead, churn rate, and lifetime value to optimize performance and increase revenue.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [
+      {
+        "evidence_rank": 1,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 3,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 2
+      }
+    ],
+    "alex_hormozi": [
+      {
+        "evidence_rank": 1,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 1
+      }
+    ]
+  }
+}

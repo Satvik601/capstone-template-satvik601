@@ -1,0 +1,280 @@
+{
+  "business_snapshot": {
+    "description": "Diaper manufacturing business with moderate local sales and high production costs.",
+    "goal": "Get profitable in 6 months",
+    "kpis": {
+      "production_cost_per_unit": null,
+      "revenue": null
+    }
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "High production costs",
+            "diagnosis": "Production costs are eating into profitability.",
+            "tactical_fix": [
+              "Implement cost-saving measures such as optimizing supply chain, negotiating better deals with suppliers",
+              "Explore automation options to reduce labor costs"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on reducing production costs to improve profitability.",
+        "kpis_to_track": [
+          "production_cost_per_unit",
+          "revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "production_cost_per_unit",
+            "why": "To monitor the impact of cost-saving measures on production expenses"
+          },
+          {
+            "kpi": "revenue",
+            "why": "To track the business's financial performance and progress towards profitability"
+          },
+          {
+            "kpi": "profit_margin",
+            "why": "To ensure profitability is achieved within the set timeline"
+          }
+        ],
+        "summary": "The diaper manufacturing business needs to address its high production costs to become profitable within 6 months. Implementing cost-saving measures and exploring automation options are crucial steps. Tracking production costs per unit, revenue, and profit margin will be essential to monitor progress and ensure financial sustainability."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Low Sales Conversion Rate",
+            "diagnosis": "Messaging or offer may not resonate with target audience",
+            "tactical_fix": [
+              "Reassess offer and messaging alignment with customer needs",
+              "Increase customer engagement through effective audience connection"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Reassess offer and messaging alignment with customer needs",
+        "kpis_to_track": [
+          "production_cost_per_unit",
+          "revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "sales_conversion_rate",
+            "why": "To measure effectiveness of offer and messaging"
+          },
+          {
+            "kpi": "number_of_strategy_sessions",
+            "why": "To track customer engagement levels"
+          },
+          {
+            "kpi": "daily_conversations_generated",
+            "why": "To monitor outreach effectiveness"
+          }
+        ],
+        "summary": "The business is facing low sales conversion rates possibly due to messaging or offer alignment issues. Reassessing the offer and messaging to better align with customer needs is crucial for improving sales performance."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 3,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 4
+        }
+      ]
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "High Production Costs",
+            "diagnosis": "Production costs are significantly impacting profitability.",
+            "tactical_fix": [
+              "Optimize manufacturing processes",
+              "Negotiate better deals with suppliers"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on reducing production costs to improve profitability.",
+        "kpis_to_track": [
+          "production_cost_per_unit",
+          "revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "profit margin",
+            "why": "To ensure profitability is achieved within 6 months"
+          },
+          {
+            "kpi": "market share growth",
+            "why": "To track business expansion and local sales increase"
+          },
+          {
+            "kpi": "customer acquisition cost",
+            "why": "To monitor efficiency of sales and marketing efforts"
+          }
+        ],
+        "summary": "In order to become profitable within 6 months, it is crucial to address the high production costs by optimizing processes and negotiating better deals with suppliers. Tracking production cost per unit and revenue will be essential, along with monitoring profit margin, market share growth, and customer acquisition cost."
+      },
+      "provenance": []
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "High production costs",
+      "diagnosis": "Production costs are eating into profitability.",
+      "tactical_fix": [
+        "Implement cost-saving measures such as optimizing supply chain, negotiating better deals with suppliers",
+        "Explore automation options to reduce labor costs"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Low Sales Conversion Rate",
+      "diagnosis": "Messaging or offer may not resonate with target audience",
+      "tactical_fix": [
+        "Reassess offer and messaging alignment with customer needs",
+        "Increase customer engagement through effective audience connection"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "High Production Costs",
+      "diagnosis": "Production costs are significantly impacting profitability.",
+      "tactical_fix": [
+        "Optimize manufacturing processes",
+        "Negotiate better deals with suppliers"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Implement cost-saving measures such as optimizing supply chain, negotiating better deals with suppliers",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Explore automation options to reduce labor costs",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Reassess offer and messaging alignment with customer needs",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Increase customer engagement through effective audience connection",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Optimize manufacturing processes",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Negotiate better deals with suppliers",
+      "from": "alex_hormozi"
+    }
+  ],
+  "kpis_to_track": [
+    "revenue",
+    "production_cost_per_unit"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "production_cost_per_unit",
+      "why": "To monitor the impact of cost-saving measures on production expenses"
+    },
+    {
+      "kpi": "revenue",
+      "why": "To track the business's financial performance and progress towards profitability"
+    },
+    {
+      "kpi": "profit_margin",
+      "why": "To ensure profitability is achieved within the set timeline"
+    },
+    {
+      "kpi": "sales_conversion_rate",
+      "why": "To measure effectiveness of offer and messaging"
+    },
+    {
+      "kpi": "number_of_strategy_sessions",
+      "why": "To track customer engagement levels"
+    },
+    {
+      "kpi": "daily_conversations_generated",
+      "why": "To monitor outreach effectiveness"
+    },
+    {
+      "kpi": "profit margin",
+      "why": "To ensure profitability is achieved within 6 months"
+    },
+    {
+      "kpi": "market share growth",
+      "why": "To track business expansion and local sales increase"
+    },
+    {
+      "kpi": "customer acquisition cost",
+      "why": "To monitor efficiency of sales and marketing efforts"
+    }
+  ],
+  "final_summary": "The diaper manufacturing business needs to address its high production costs to become profitable within 6 months. Implementing cost-saving measures and exploring automation options are crucial steps. Tracking production costs per unit, revenue, and profit margin will be essential to monitor progress and ensure financial sustainability. || The business is facing low sales conversion rates possibly due to messaging or offer alignment issues. Reassessing the offer and messaging to better align with customer needs is crucial for improving sales performance. || In order to become profitable within 6 months, it is crucial to address the high production costs by optimizing processes and negotiating better deals with suppliers. Tracking production cost per unit and revenue will be essential, along with monitoring profit margin, market share growth, and customer acquisition cost.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [
+      {
+        "evidence_rank": 1,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 3,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 4
+      }
+    ],
+    "alex_hormozi": []
+  }
+}

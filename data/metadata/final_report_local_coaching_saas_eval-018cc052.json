@@ -1,0 +1,303 @@
+{
+  "business_snapshot": {
+    "description": "Bootstrapped coaching SaaS selling monthly subscriptions to coaches.",
+    "goal": "Double monthly recurring revenue in 6 months",
+    "kpis": {}
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of defined KPIs",
+            "diagnosis": "Absence of clear metrics to measure progress and success",
+            "tactical_fix": [
+              "Identify key metrics aligned with business goals",
+              "Implement tracking and reporting mechanisms"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Define and track key performance indicators (KPIs) to measure progress towards doubling monthly recurring revenue",
+        "kpis_to_track": [
+          "MRR growth rate",
+          "Churn rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "MRR growth rate",
+            "why": "Critical for tracking revenue expansion"
+          },
+          {
+            "kpi": "Churn rate",
+            "why": "Essential to monitor customer retention and revenue stability"
+          },
+          {
+            "kpi": "CAC (Customer Acquisition Cost)",
+            "why": "To ensure cost-effectiveness of acquiring new customers"
+          }
+        ],
+        "summary": "The business lacks defined KPIs to measure progress towards the goal of doubling monthly recurring revenue in 6 months. It is crucial to identify and track key metrics such as MRR growth rate, Churn rate, and CAC to ensure effective monitoring and optimization of revenue generation and customer retention."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Low Conversion Rate of Strategy Sessions",
+            "diagnosis": "Messaging or offer may not resonate with target audience",
+            "tactical_fix": [
+              "Reassess offer and messaging alignment with student needs",
+              "Increase audience connection efforts"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Reassess offer and messaging alignment with student needs",
+        "kpis_to_track": [
+          "monthly recurring revenue",
+          "number of strategy sessions booked"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "conversion rate of strategy sessions",
+            "why": "To measure effectiveness of offer and messaging"
+          },
+          {
+            "kpi": "audience connection score",
+            "why": "To track improvement in connecting with target audience"
+          },
+          {
+            "kpi": "revenue per strategy session",
+            "why": "To monitor revenue generated per strategy session"
+          }
+        ],
+        "summary": "To double monthly recurring revenue in 6 months, focus on improving conversion rate of strategy sessions by reassessing offer and messaging alignment with student needs, and increasing audience connection efforts."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 3,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 2
+        }
+      ]
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lead Acquisition",
+            "diagnosis": "Need to optimize lead generation channels to increase quantity and quality of leads.",
+            "tactical_fix": [
+              "Track cost per lead and optimize for quality + quantity",
+              "Utilize paid ads to speed up growth and organic methods to build trust"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on improving lead acquisition strategies to drive more leads and improve conversion rates.",
+        "kpis_to_track": [
+          "Cost Per Lead",
+          "Lead Quality"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "Conversion Rate",
+            "why": "To measure the effectiveness of lead nurturing and sales processes"
+          },
+          {
+            "kpi": "Customer Lifetime Value (LTV)",
+            "why": "To track the value generated from each customer over their lifetime"
+          },
+          {
+            "kpi": "Churn Rate",
+            "why": "To monitor customer retention and identify areas for improvement"
+          }
+        ],
+        "summary": "The key bottleneck identified is lead acquisition, requiring immediate attention to optimize lead generation channels and improve lead quality and quantity."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Lack of defined KPIs",
+      "diagnosis": "Absence of clear metrics to measure progress and success",
+      "tactical_fix": [
+        "Identify key metrics aligned with business goals",
+        "Implement tracking and reporting mechanisms"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Low Conversion Rate of Strategy Sessions",
+      "diagnosis": "Messaging or offer may not resonate with target audience",
+      "tactical_fix": [
+        "Reassess offer and messaging alignment with student needs",
+        "Increase audience connection efforts"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "Lead Acquisition",
+      "diagnosis": "Need to optimize lead generation channels to increase quantity and quality of leads.",
+      "tactical_fix": [
+        "Track cost per lead and optimize for quality + quantity",
+        "Utilize paid ads to speed up growth and organic methods to build trust"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Identify key metrics aligned with business goals",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Implement tracking and reporting mechanisms",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Reassess offer and messaging alignment with student needs",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Increase audience connection efforts",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Track cost per lead and optimize for quality + quantity",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Utilize paid ads to speed up growth and organic methods to build trust",
+      "from": "alex_hormozi"
+    }
+  ],
+  "kpis_to_track": [
+    "Cost Per Lead",
+    "number of strategy sessions booked",
+    "MRR growth rate",
+    "Lead Quality",
+    "Churn rate",
+    "monthly recurring revenue"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "MRR growth rate",
+      "why": "Critical for tracking revenue expansion"
+    },
+    {
+      "kpi": "Churn rate",
+      "why": "Essential to monitor customer retention and revenue stability"
+    },
+    {
+      "kpi": "CAC (Customer Acquisition Cost)",
+      "why": "To ensure cost-effectiveness of acquiring new customers"
+    },
+    {
+      "kpi": "conversion rate of strategy sessions",
+      "why": "To measure effectiveness of offer and messaging"
+    },
+    {
+      "kpi": "audience connection score",
+      "why": "To track improvement in connecting with target audience"
+    },
+    {
+      "kpi": "revenue per strategy session",
+      "why": "To monitor revenue generated per strategy session"
+    },
+    {
+      "kpi": "Conversion Rate",
+      "why": "To measure the effectiveness of lead nurturing and sales processes"
+    },
+    {
+      "kpi": "Customer Lifetime Value (LTV)",
+      "why": "To track the value generated from each customer over their lifetime"
+    },
+    {
+      "kpi": "Churn Rate",
+      "why": "To monitor customer retention and identify areas for improvement"
+    }
+  ],
+  "final_summary": "The business lacks defined KPIs to measure progress towards the goal of doubling monthly recurring revenue in 6 months. It is crucial to identify and track key metrics such as MRR growth rate, Churn rate, and CAC to ensure effective monitoring and optimization of revenue generation and customer retention. || To double monthly recurring revenue in 6 months, focus on improving conversion rate of strategy sessions by reassessing offer and messaging alignment with student needs, and increasing audience connection efforts. || The key bottleneck identified is lead acquisition, requiring immediate attention to optimize lead generation channels and improve lead quality and quantity.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [
+      {
+        "evidence_rank": 1,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 3,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 2
+      }
+    ],
+    "alex_hormozi": [
+      {
+        "evidence_rank": 1,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 1
+      }
+    ]
+  }
+}

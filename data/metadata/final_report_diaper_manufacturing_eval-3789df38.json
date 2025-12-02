@@ -1,0 +1,280 @@
+{
+  "business_snapshot": {
+    "description": "Diaper manufacturing business with moderate local sales and high production costs.",
+    "goal": "Get profitable in 6 months",
+    "kpis": {
+      "production_cost_per_unit": null,
+      "revenue": null
+    }
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "High production costs",
+            "diagnosis": "Production costs are eating into profitability.",
+            "tactical_fix": [
+              "Implement lean manufacturing principles",
+              "Negotiate better deals with suppliers"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on reducing production costs to improve profitability.",
+        "kpis_to_track": [
+          "production_cost_per_unit",
+          "revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "profit_margin",
+            "why": "To track overall profitability"
+          },
+          {
+            "kpi": "customer acquisition cost (CAC)",
+            "why": "To ensure cost-effective customer acquisition"
+          },
+          {
+            "kpi": "inventory turnover ratio",
+            "why": "To optimize inventory management"
+          }
+        ],
+        "summary": "Implement lean manufacturing principles and negotiate better deals with suppliers to reduce high production costs and improve profitability."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Low Sales Conversion Rate",
+            "diagnosis": "Messaging or offer not resonating with target audience",
+            "tactical_fix": [
+              "Reassess offer and messaging alignment with customer needs",
+              "Increase customer engagement through effective audience connection"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Reassess offer and messaging alignment with customer needs",
+        "kpis_to_track": [
+          "production_cost_per_unit",
+          "revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "sales_conversion_rate",
+            "why": "To measure effectiveness of offer and messaging"
+          },
+          {
+            "kpi": "number_of_strategy_sessions",
+            "why": "To track customer engagement levels"
+          },
+          {
+            "kpi": "daily_conversations_generated",
+            "why": "To monitor outreach effectiveness"
+          }
+        ],
+        "summary": "The diaper manufacturing business is facing low sales due to messaging or offer not resonating with the target audience. The top recommendation is to reassess the offer and messaging alignment with customer needs. Key KPIs to track include production cost per unit and revenue, along with proposed KPIs such as sales conversion rate, number of strategy sessions, and daily conversations generated."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 3,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 4
+        }
+      ]
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "High Production Costs",
+            "diagnosis": "Production costs are significantly impacting profitability.",
+            "tactical_fix": [
+              "Optimize manufacturing processes",
+              "Negotiate better deals with suppliers"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on reducing production costs to improve profitability.",
+        "kpis_to_track": [
+          "production_cost_per_unit",
+          "revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "profit margin",
+            "why": "To measure the business's profitability"
+          },
+          {
+            "kpi": "sales growth rate",
+            "why": "To track the increase in sales over time"
+          },
+          {
+            "kpi": "inventory turnover ratio",
+            "why": "To optimize inventory management"
+          }
+        ],
+        "summary": "To achieve profitability in 6 months, it is crucial to address the high production costs by optimizing processes and negotiating better deals with suppliers."
+      },
+      "provenance": []
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "High production costs",
+      "diagnosis": "Production costs are eating into profitability.",
+      "tactical_fix": [
+        "Implement lean manufacturing principles",
+        "Negotiate better deals with suppliers"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Low Sales Conversion Rate",
+      "diagnosis": "Messaging or offer not resonating with target audience",
+      "tactical_fix": [
+        "Reassess offer and messaging alignment with customer needs",
+        "Increase customer engagement through effective audience connection"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "High Production Costs",
+      "diagnosis": "Production costs are significantly impacting profitability.",
+      "tactical_fix": [
+        "Optimize manufacturing processes",
+        "Negotiate better deals with suppliers"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Implement lean manufacturing principles",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Negotiate better deals with suppliers",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Reassess offer and messaging alignment with customer needs",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Increase customer engagement through effective audience connection",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Optimize manufacturing processes",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Negotiate better deals with suppliers",
+      "from": "alex_hormozi"
+    }
+  ],
+  "kpis_to_track": [
+    "revenue",
+    "production_cost_per_unit"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "profit_margin",
+      "why": "To track overall profitability"
+    },
+    {
+      "kpi": "customer acquisition cost (CAC)",
+      "why": "To ensure cost-effective customer acquisition"
+    },
+    {
+      "kpi": "inventory turnover ratio",
+      "why": "To optimize inventory management"
+    },
+    {
+      "kpi": "sales_conversion_rate",
+      "why": "To measure effectiveness of offer and messaging"
+    },
+    {
+      "kpi": "number_of_strategy_sessions",
+      "why": "To track customer engagement levels"
+    },
+    {
+      "kpi": "daily_conversations_generated",
+      "why": "To monitor outreach effectiveness"
+    },
+    {
+      "kpi": "profit margin",
+      "why": "To measure the business's profitability"
+    },
+    {
+      "kpi": "sales growth rate",
+      "why": "To track the increase in sales over time"
+    },
+    {
+      "kpi": "inventory turnover ratio",
+      "why": "To optimize inventory management"
+    }
+  ],
+  "final_summary": "Implement lean manufacturing principles and negotiate better deals with suppliers to reduce high production costs and improve profitability. || The diaper manufacturing business is facing low sales due to messaging or offer not resonating with the target audience. The top recommendation is to reassess the offer and messaging alignment with customer needs. Key KPIs to track include production cost per unit and revenue, along with proposed KPIs such as sales conversion rate, number of strategy sessions, and daily conversations generated. || To achieve profitability in 6 months, it is crucial to address the high production costs by optimizing processes and negotiating better deals with suppliers.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [
+      {
+        "evidence_rank": 1,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 3,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 4
+      }
+    ],
+    "alex_hormozi": []
+  }
+}

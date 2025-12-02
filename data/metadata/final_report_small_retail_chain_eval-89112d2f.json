@@ -1,0 +1,327 @@
+{
+  "business_snapshot": {
+    "description": "3-store retail chain with inconsistent inventory and declining footfall.",
+    "goal": "Increase same-store sales by 20% in 3 months",
+    "kpis": {
+      "conversion_rate": null
+    }
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Inconsistent Inventory Management",
+            "diagnosis": "Lack of proper inventory tracking leading to stockouts and overstock situations",
+            "tactical_fix": [
+              "Implement inventory management system",
+              "Conduct regular inventory audits"
+            ],
+            "priority": "high"
+          },
+          {
+            "name": "Footfall Decline",
+            "diagnosis": "Lack of effective marketing strategies and customer engagement",
+            "tactical_fix": [
+              "Launch targeted marketing campaigns",
+              "Improve store ambiance and customer experience"
+            ],
+            "priority": "medium"
+          }
+        ],
+        "top_recommendation": "Implement inventory management system to address stock issues and improve customer satisfaction.",
+        "kpis_to_track": [
+          "conversion_rate",
+          "inventory turnover rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "customer retention rate",
+            "why": "To measure the effectiveness of customer engagement strategies"
+          },
+          {
+            "kpi": "average transaction value",
+            "why": "To track changes in customer spending behavior"
+          },
+          {
+            "kpi": "employee training hours",
+            "why": "To ensure staff is equipped to deliver exceptional customer service"
+          }
+        ],
+        "summary": "To achieve the goal of increasing same-store sales by 20% in 3 months, focus on improving inventory management and enhancing customer engagement to address the identified bottlenecks."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Low Engagement and Conversion Rate",
+            "diagnosis": "Insufficient strategy sessions and ineffective outreach methods",
+            "tactical_fix": [
+              "Increase strategy sessions to at least 40+",
+              "Revise outreach methods to improve engagement"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Increase strategy sessions to gather meaningful insights and improve engagement",
+        "kpis_to_track": [
+          "conversion_rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "strategy_sessions_per_day",
+            "why": "To ensure the target of at least 1-2 strategy sessions per day is met"
+          },
+          {
+            "kpi": "outreach_conversion_rate",
+            "why": "To measure the effectiveness of outreach methods in converting leads"
+          },
+          {
+            "kpi": "average_transaction_value",
+            "why": "To track the average value of transactions and assess sales performance"
+          }
+        ],
+        "summary": "To increase same-store sales by 20% in 3 months, focus on improving engagement through increased strategy sessions and optimizing outreach methods."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 3,
+          "source": "SamOvens_yt.txt",
+          "chunk_id": 2
+        }
+      ]
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Inventory Management",
+            "diagnosis": "Inconsistent inventory leading to stockouts and missed sales opportunities",
+            "tactical_fix": [
+              "Implement inventory management system to track stock levels in real-time",
+              "Conduct regular inventory audits to identify and address discrepancies"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Implement a structured sales script to improve conversion rates",
+        "kpis_to_track": [
+          "conversion_rate",
+          "inventory turnover rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "inventory turnover rate",
+            "why": "To ensure efficient management of inventory levels and reduce stockouts"
+          },
+          {
+            "kpi": "customer retention rate",
+            "why": "To measure the effectiveness of retention strategies in increasing customer loyalty and lifetime value"
+          },
+          {
+            "kpi": "average transaction value",
+            "why": "To track the average amount customers spend per transaction and identify opportunities to increase sales"
+          }
+        ],
+        "summary": "To increase same-store sales by 20% in 3 months, focus on improving inventory management to avoid stockouts and missed sales opportunities. Implement a structured sales script to enhance conversion rates and track key KPIs such as conversion rate, inventory turnover rate, customer retention rate, and average transaction value."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 1
+        },
+        {
+          "evidence_rank": 2,
+          "source": "hormozi_summary.txt",
+          "chunk_id": 0
+        }
+      ]
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Inconsistent Inventory Management",
+      "diagnosis": "Lack of proper inventory tracking leading to stockouts and overstock situations",
+      "tactical_fix": [
+        "Implement inventory management system",
+        "Conduct regular inventory audits"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Low Engagement and Conversion Rate",
+      "diagnosis": "Insufficient strategy sessions and ineffective outreach methods",
+      "tactical_fix": [
+        "Increase strategy sessions to at least 40+",
+        "Revise outreach methods to improve engagement"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "Inventory Management",
+      "diagnosis": "Inconsistent inventory leading to stockouts and missed sales opportunities",
+      "tactical_fix": [
+        "Implement inventory management system to track stock levels in real-time",
+        "Conduct regular inventory audits to identify and address discrepancies"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    },
+    {
+      "name": "Footfall Decline",
+      "diagnosis": "Lack of effective marketing strategies and customer engagement",
+      "tactical_fix": [
+        "Launch targeted marketing campaigns",
+        "Improve store ambiance and customer experience"
+      ],
+      "priority": "medium",
+      "source": "dan_martell"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Implement inventory management system",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Conduct regular inventory audits",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Increase strategy sessions to at least 40+",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Revise outreach methods to improve engagement",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Implement inventory management system to track stock levels in real-time",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Conduct regular inventory audits to identify and address discrepancies",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Launch targeted marketing campaigns",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Improve store ambiance and customer experience",
+      "from": "dan_martell"
+    }
+  ],
+  "kpis_to_track": [
+    "inventory turnover rate",
+    "conversion_rate"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "customer retention rate",
+      "why": "To measure the effectiveness of customer engagement strategies"
+    },
+    {
+      "kpi": "average transaction value",
+      "why": "To track changes in customer spending behavior"
+    },
+    {
+      "kpi": "employee training hours",
+      "why": "To ensure staff is equipped to deliver exceptional customer service"
+    },
+    {
+      "kpi": "strategy_sessions_per_day",
+      "why": "To ensure the target of at least 1-2 strategy sessions per day is met"
+    },
+    {
+      "kpi": "outreach_conversion_rate",
+      "why": "To measure the effectiveness of outreach methods in converting leads"
+    },
+    {
+      "kpi": "average_transaction_value",
+      "why": "To track the average value of transactions and assess sales performance"
+    },
+    {
+      "kpi": "inventory turnover rate",
+      "why": "To ensure efficient management of inventory levels and reduce stockouts"
+    },
+    {
+      "kpi": "customer retention rate",
+      "why": "To measure the effectiveness of retention strategies in increasing customer loyalty and lifetime value"
+    },
+    {
+      "kpi": "average transaction value",
+      "why": "To track the average amount customers spend per transaction and identify opportunities to increase sales"
+    }
+  ],
+  "final_summary": "To achieve the goal of increasing same-store sales by 20% in 3 months, focus on improving inventory management and enhancing customer engagement to address the identified bottlenecks. || To increase same-store sales by 20% in 3 months, focus on improving engagement through increased strategy sessions and optimizing outreach methods. || To increase same-store sales by 20% in 3 months, focus on improving inventory management to avoid stockouts and missed sales opportunities. Implement a structured sales script to enhance conversion rates and track key KPIs such as conversion rate, inventory turnover rate, customer retention rate, and average transaction value.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [
+      {
+        "evidence_rank": 1,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 3,
+        "source": "SamOvens_yt.txt",
+        "chunk_id": 2
+      }
+    ],
+    "alex_hormozi": [
+      {
+        "evidence_rank": 1,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 1
+      },
+      {
+        "evidence_rank": 2,
+        "source": "hormozi_summary.txt",
+        "chunk_id": 0
+      }
+    ]
+  }
+}

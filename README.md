@@ -135,7 +135,7 @@ I plan to execute these steps to complete my project.
 - Enforce structured output using templates or schema-guided prompting.  
 - Ensure clarity, professionalism, and consultant-like tone.
 
-[TODO] Step 10: Prepare scenario tests and evaluate the pipeline  
+[DONE] Step 10: Prepare scenario tests and evaluate the pipeline  
 → Uses: Prompting, RAG, LangGraph Debugging (with LangSmith optionally)  
 - Create multiple business examples for testing.  
 - Run full workflow and save outputs in docs/.  
