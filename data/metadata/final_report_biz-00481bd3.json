@@ -1,0 +1,243 @@
+{
+  "business_snapshot": {
+    "description": "multivitamin making business",
+    "goal": "double my sales",
+    "kpis": {
+      "monthly revenue": "$20"
+    }
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of delegation and automation",
+            "diagnosis": "Founder is likely spending too much time on low-value tasks instead of focusing on high-impact activities to drive sales growth.",
+            "tactical_fix": [
+              "Identify tasks that can be delegated or automated",
+              "Implement systems and processes to streamline operations"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Delegate low-value tasks and focus on high-impact sales activities to drive revenue growth.",
+        "kpis_to_track": [
+          "monthly revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "sales conversion rate",
+            "why": "To understand the effectiveness of sales efforts in converting leads to customers"
+          },
+          {
+            "kpi": "customer acquisition cost (CAC)",
+            "why": "To monitor the cost of acquiring new customers and optimize marketing and sales strategies"
+          },
+          {
+            "kpi": "customer retention rate",
+            "why": "To measure the ability to retain customers and drive recurring revenue"
+          }
+        ],
+        "summary": "To double sales, the founder should prioritize delegation and automation of low-value tasks, focus on high-impact sales activities, and track key metrics like sales conversion rate, CAC, and customer retention rate."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of marketing strategy",
+            "diagnosis": "Limited marketing efforts are hindering sales growth",
+            "tactical_fix": [
+              "Develop a comprehensive marketing plan",
+              "Implement targeted advertising campaigns"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on developing and implementing a robust marketing strategy to increase sales",
+        "kpis_to_track": [
+          "monthly revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "website traffic",
+            "why": "To measure the effectiveness of marketing efforts"
+          },
+          {
+            "kpi": "customer acquisition cost",
+            "why": "To optimize marketing spend and improve ROI"
+          },
+          {
+            "kpi": "customer retention rate",
+            "why": "To ensure long-term customer value and loyalty"
+          }
+        ],
+        "summary": "To double sales, prioritize marketing strategy development and implementation to drive revenue growth."
+      },
+      "provenance": []
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Marketing Strategy",
+            "diagnosis": "Lack of effective marketing campaigns to reach target audience",
+            "tactical_fix": [
+              "Implement targeted social media ads",
+              "Collaborate with influencers in health and wellness niche"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Revamp marketing strategy to increase brand awareness and reach new customers",
+        "kpis_to_track": [
+          "monthly revenue"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "customer acquisition cost (CAC)",
+            "why": "To measure the efficiency of marketing campaigns in acquiring new customers"
+          },
+          {
+            "kpi": "customer lifetime value (CLV)",
+            "why": "To understand the long-term value of each customer and optimize marketing and sales strategies accordingly"
+          },
+          {
+            "kpi": "conversion rate",
+            "why": "To track the effectiveness of converting leads into paying customers"
+          }
+        ],
+        "summary": "To double sales, focus on improving marketing strategies to attract new customers and increase revenue. Track key metrics such as CAC, CLV, and conversion rate to optimize performance."
+      },
+      "provenance": []
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Lack of delegation and automation",
+      "diagnosis": "Founder is likely spending too much time on low-value tasks instead of focusing on high-impact activities to drive sales growth.",
+      "tactical_fix": [
+        "Identify tasks that can be delegated or automated",
+        "Implement systems and processes to streamline operations"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Lack of marketing strategy",
+      "diagnosis": "Limited marketing efforts are hindering sales growth",
+      "tactical_fix": [
+        "Develop a comprehensive marketing plan",
+        "Implement targeted advertising campaigns"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "Marketing Strategy",
+      "diagnosis": "Lack of effective marketing campaigns to reach target audience",
+      "tactical_fix": [
+        "Implement targeted social media ads",
+        "Collaborate with influencers in health and wellness niche"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Identify tasks that can be delegated or automated",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Implement systems and processes to streamline operations",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Develop a comprehensive marketing plan",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Implement targeted advertising campaigns",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Implement targeted social media ads",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Collaborate with influencers in health and wellness niche",
+      "from": "alex_hormozi"
+    }
+  ],
+  "kpis_to_track": [
+    "monthly revenue"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "sales conversion rate",
+      "why": "To understand the effectiveness of sales efforts in converting leads to customers"
+    },
+    {
+      "kpi": "customer acquisition cost (CAC)",
+      "why": "To monitor the cost of acquiring new customers and optimize marketing and sales strategies"
+    },
+    {
+      "kpi": "customer retention rate",
+      "why": "To measure the ability to retain customers and drive recurring revenue"
+    },
+    {
+      "kpi": "website traffic",
+      "why": "To measure the effectiveness of marketing efforts"
+    },
+    {
+      "kpi": "customer acquisition cost",
+      "why": "To optimize marketing spend and improve ROI"
+    },
+    {
+      "kpi": "customer retention rate",
+      "why": "To ensure long-term customer value and loyalty"
+    },
+    {
+      "kpi": "customer acquisition cost (CAC)",
+      "why": "To measure the efficiency of marketing campaigns in acquiring new customers"
+    },
+    {
+      "kpi": "customer lifetime value (CLV)",
+      "why": "To understand the long-term value of each customer and optimize marketing and sales strategies accordingly"
+    },
+    {
+      "kpi": "conversion rate",
+      "why": "To track the effectiveness of converting leads into paying customers"
+    }
+  ],
+  "final_summary": "To double sales, the founder should prioritize delegation and automation of low-value tasks, focus on high-impact sales activities, and track key metrics like sales conversion rate, CAC, and customer retention rate. || To double sales, prioritize marketing strategy development and implementation to drive revenue growth. || To double sales, focus on improving marketing strategies to attract new customers and increase revenue. Track key metrics such as CAC, CLV, and conversion rate to optimize performance.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [],
+    "alex_hormozi": []
+  }
+}

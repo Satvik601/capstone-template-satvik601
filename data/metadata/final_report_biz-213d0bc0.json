@@ -1,0 +1,248 @@
+{
+  "business_snapshot": {
+    "description": "basket making and selling business",
+    "goal": "increase sales",
+    "kpis": {}
+  },
+  "coach_insights": {
+    "dan_martell": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of defined KPIs",
+            "diagnosis": "Without clear KPIs, it's challenging to measure progress and make data-driven decisions.",
+            "tactical_fix": [
+              "Define specific KPIs related to sales performance",
+              "Implement tracking mechanisms for the identified KPIs"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Define and track key sales performance indicators to measure progress and guide decision-making.",
+        "kpis_to_track": [
+          "sales conversion rate",
+          "average order value"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "monthly revenue growth rate",
+            "why": "To monitor the overall sales growth performance"
+          },
+          {
+            "kpi": "customer acquisition cost (CAC)",
+            "why": "To assess the efficiency of sales and marketing efforts"
+          },
+          {
+            "kpi": "customer retention rate",
+            "why": "To measure the ability to retain customers and drive recurring revenue"
+          }
+        ],
+        "summary": "The business lacks defined KPIs to track sales performance, hindering the ability to measure progress effectively. It is crucial to establish specific KPIs related to sales and implement tracking mechanisms to enable data-driven decision-making."
+      },
+      "provenance": [
+        {
+          "evidence_rank": 1,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 0
+        },
+        {
+          "evidence_rank": 2,
+          "source": "dan_martell_summary.txt",
+          "chunk_id": 1
+        }
+      ]
+    },
+    "sam_ovens": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of online presence",
+            "diagnosis": "Limited visibility to potential customers",
+            "tactical_fix": [
+              "Create a professional website showcasing products",
+              "Implement social media marketing strategy"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Focus on building an online presence to reach more customers and drive sales",
+        "kpis_to_track": [
+          "website traffic",
+          "social media engagement"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "conversion rate",
+            "why": "To measure the effectiveness of turning website visitors into customers"
+          },
+          {
+            "kpi": "average order value",
+            "why": "To track the average amount customers spend per order"
+          },
+          {
+            "kpi": "customer acquisition cost",
+            "why": "To understand the cost of acquiring each new customer"
+          }
+        ],
+        "summary": "To increase sales for the basket making and selling business, it is crucial to establish a strong online presence through a professional website and social media marketing. Tracking website traffic, social media engagement, conversion rate, average order value, and customer acquisition cost will provide insights into the effectiveness of the sales strategy."
+      },
+      "provenance": []
+    },
+    "alex_hormozi": {
+      "analysis": {
+        "bottlenecks": [
+          {
+            "name": "Lack of online presence",
+            "diagnosis": "Limited reach due to absence from online platforms",
+            "tactical_fix": [
+              "Create an e-commerce website",
+              "Utilize social media for marketing"
+            ],
+            "priority": "high"
+          }
+        ],
+        "top_recommendation": "Establish an online store and leverage social media for marketing",
+        "kpis_to_track": [
+          "website traffic",
+          "conversion rate"
+        ],
+        "proposed_kpis": [
+          {
+            "kpi": "online sales revenue",
+            "why": "To measure the direct impact of online initiatives on sales"
+          },
+          {
+            "kpi": "social media engagement",
+            "why": "To gauge the effectiveness of social media marketing"
+          },
+          {
+            "kpi": "customer acquisition cost",
+            "why": "To assess the efficiency of sales and marketing efforts"
+          }
+        ],
+        "summary": "To increase sales for the basket making and selling business, it is crucial to establish an online presence through an e-commerce website and utilize social media for marketing. Tracking website traffic, conversion rate, online sales revenue, social media engagement, and customer acquisition cost will provide insights into the effectiveness of these initiatives."
+      },
+      "provenance": []
+    }
+  },
+  "consensus_bottlenecks": [
+    {
+      "name": "Lack of defined KPIs",
+      "diagnosis": "Without clear KPIs, it's challenging to measure progress and make data-driven decisions.",
+      "tactical_fix": [
+        "Define specific KPIs related to sales performance",
+        "Implement tracking mechanisms for the identified KPIs"
+      ],
+      "priority": "high",
+      "source": "dan_martell"
+    },
+    {
+      "name": "Lack of online presence",
+      "diagnosis": "Limited visibility to potential customers",
+      "tactical_fix": [
+        "Create a professional website showcasing products",
+        "Implement social media marketing strategy"
+      ],
+      "priority": "high",
+      "source": "sam_ovens"
+    },
+    {
+      "name": "Lack of online presence",
+      "diagnosis": "Limited reach due to absence from online platforms",
+      "tactical_fix": [
+        "Create an e-commerce website",
+        "Utilize social media for marketing"
+      ],
+      "priority": "high",
+      "source": "alex_hormozi"
+    }
+  ],
+  "action_plan": [
+    {
+      "fix": "Define specific KPIs related to sales performance",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Implement tracking mechanisms for the identified KPIs",
+      "from": "dan_martell"
+    },
+    {
+      "fix": "Create a professional website showcasing products",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Implement social media marketing strategy",
+      "from": "sam_ovens"
+    },
+    {
+      "fix": "Create an e-commerce website",
+      "from": "alex_hormozi"
+    },
+    {
+      "fix": "Utilize social media for marketing",
+      "from": "alex_hormozi"
+    }
+  ],
+  "kpis_to_track": [
+    "conversion rate",
+    "social media engagement",
+    "website traffic",
+    "average order value",
+    "sales conversion rate"
+  ],
+  "proposed_kpis": [
+    {
+      "kpi": "monthly revenue growth rate",
+      "why": "To monitor the overall sales growth performance"
+    },
+    {
+      "kpi": "customer acquisition cost (CAC)",
+      "why": "To assess the efficiency of sales and marketing efforts"
+    },
+    {
+      "kpi": "customer retention rate",
+      "why": "To measure the ability to retain customers and drive recurring revenue"
+    },
+    {
+      "kpi": "conversion rate",
+      "why": "To measure the effectiveness of turning website visitors into customers"
+    },
+    {
+      "kpi": "average order value",
+      "why": "To track the average amount customers spend per order"
+    },
+    {
+      "kpi": "customer acquisition cost",
+      "why": "To understand the cost of acquiring each new customer"
+    },
+    {
+      "kpi": "online sales revenue",
+      "why": "To measure the direct impact of online initiatives on sales"
+    },
+    {
+      "kpi": "social media engagement",
+      "why": "To gauge the effectiveness of social media marketing"
+    },
+    {
+      "kpi": "customer acquisition cost",
+      "why": "To assess the efficiency of sales and marketing efforts"
+    }
+  ],
+  "final_summary": "The business lacks defined KPIs to track sales performance, hindering the ability to measure progress effectively. It is crucial to establish specific KPIs related to sales and implement tracking mechanisms to enable data-driven decision-making. || To increase sales for the basket making and selling business, it is crucial to establish a strong online presence through a professional website and social media marketing. Tracking website traffic, social media engagement, conversion rate, average order value, and customer acquisition cost will provide insights into the effectiveness of the sales strategy. || To increase sales for the basket making and selling business, it is crucial to establish an online presence through an e-commerce website and utilize social media for marketing. Tracking website traffic, conversion rate, online sales revenue, social media engagement, and customer acquisition cost will provide insights into the effectiveness of these initiatives.",
+  "rag_provenance": {
+    "dan_martell": [
+      {
+        "evidence_rank": 1,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 0
+      },
+      {
+        "evidence_rank": 2,
+        "source": "dan_martell_summary.txt",
+        "chunk_id": 1
+      }
+    ],
+    "sam_ovens": [],
+    "alex_hormozi": []
+  }
+}
